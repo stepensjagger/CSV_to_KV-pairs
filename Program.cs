@@ -14,6 +14,8 @@ namespace CSVParser
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Please enter the number of times to repet:");
+            int Itterate = Console.ReadLine();
             Console.WriteLine("Enter the full path to your CSV file:");
             string filePath = Console.ReadLine();
 
